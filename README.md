@@ -244,6 +244,11 @@ evaluation/error_analysis.md
 
 ---
 
+
+### 평가 결과 그래프
+
+![평가 결과](evaluation/evaluation_metrics.png)
+
 ## 10. Faithfulness 평가
 
 생성된 답변이 검색된 Context에 의해 실제로 뒷받침되는지 확인하기 위해 Faithfulness Proxy 평가를 수행했습니다.
