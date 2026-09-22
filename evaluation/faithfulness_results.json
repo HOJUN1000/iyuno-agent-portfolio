@@ -1,0 +1,252 @@
+{
+  "metric": "Embedding-based Faithfulness Proxy",
+  "threshold": 0.45,
+  "supported_claims": 25,
+  "total_claims": 32,
+  "score": 0.78125,
+  "method": "Claim-to-retrieved-context cosine similarity",
+  "results": [
+    {
+      "id": "faith_01",
+      "question": "How can prompt injection attacks against generative AI systems be mitigated?",
+      "answer": "Prompt injection attacks against generative AI systems can be mitigated by:\n\n1. Limiting the release of public information and artifacts.\n2. Restricting the total number of model queries available to users.\n3. Designing systems assuming the AI model can produce malicious output if exposed to trusted input sources.\n4. Educating model users and application designers about the risks of indirect prompt injection.\n5. Using well-defined interfaces when models interact with potentially untrustworthy data sources.\n6. Implementing integrity checks to detect and prevent manipulation of the primary task of the language model.",
+      "supported_claims": 5,
+      "total_claims": 7,
+      "faithfulness_proxy": 0.7142857142857143,
+      "claims": [
+        {
+          "claim": "Prompt injection attacks against generative AI systems can be mitigated by: 1.",
+          "supported": true,
+          "support_score": 0.7183,
+          "best_source": "[NIST | NIST AI 100-2 E2025 | p.62]"
+        },
+        {
+          "claim": "Limiting the release of public information and artifacts.",
+          "supported": false,
+          "support_score": 0.2953,
+          "best_source": "[NIST | NIST AI 100-2 E2025 | p.62]"
+        },
+        {
+          "claim": "Restricting the total number of model queries available to users.",
+          "supported": true,
+          "support_score": 0.5101,
+          "best_source": "[NIST | NIST AI 100-2 E2025 | p.62]"
+        },
+        {
+          "claim": "Designing systems assuming the AI model can produce malicious output if exposed to trusted input sources.",
+          "supported": true,
+          "support_score": 0.666,
+          "best_source": "[NIST | NIST AI 100-2 E2025 | p.67]"
+        },
+        {
+          "claim": "Educating model users and application designers about the risks of indirect prompt injection.",
+          "supported": true,
+          "support_score": 0.5806,
+          "best_source": "[NIST | NIST AI 100-2 E2025 | p.62]"
+        },
+        {
+          "claim": "Using well-defined interfaces when models interact with potentially untrustworthy data sources.",
+          "supported": true,
+          "support_score": 0.5493,
+          "best_source": "[NIST | NIST AI 100-2 E2025 | p.67]"
+        },
+        {
+          "claim": "Implementing integrity checks to detect and prevent manipulation of the primary task of the language model.",
+          "supported": false,
+          "support_score": 0.4075,
+          "best_source": "[NIST | NIST AI 100-2 E2025 | p.67]"
+        }
+      ]
+    },
+    {
+      "id": "faith_02",
+      "question": "What does NIST recommend for zero trust access control?",
+      "answer": "NIST recommends establishing a continuous monitoring and measurement system for the integrity and security posture of all owned and associated assets. This includes tracking network location, time, reported active attacks, and other relevant attributes. Policies for resource access and action permissions should vary based on the sensitivity of the resource/data, applying least privilege principles to restrict visibility and accessibility.",
+      "supported_claims": 2,
+      "total_claims": 3,
+      "faithfulness_proxy": 0.6666666666666666,
+      "claims": [
+        {
+          "claim": "NIST recommends establishing a continuous monitoring and measurement system for the integrity and security posture of all owned and associated assets.",
+          "supported": true,
+          "support_score": 0.5729,
+          "best_source": "[NIST | SP 800-207 | p.16]"
+        },
+        {
+          "claim": "This includes tracking network location, time, reported active attacks, and other relevant attributes.",
+          "supported": false,
+          "support_score": 0.3649,
+          "best_source": "[NIST | SP 800-207 | p.16]"
+        },
+        {
+          "claim": "Policies for resource access and action permissions should vary based on the sensitivity of the resource/data, applying least privilege principles to restrict visibility and accessibility.",
+          "supported": true,
+          "support_score": 0.4808,
+          "best_source": "[NIST | SP 800-207 | p.16]"
+        }
+      ]
+    },
+    {
+      "id": "faith_03",
+      "question": "What security practices are recommended for application containers?",
+      "answer": "Based on the provided context, NIST SP 800-190 recommends several security practices for application containers:\n\n1. **Isolation**: Ensure that containers are isolated from one another and from the host operating system.\n2. **Access Controls**: Implement strict access controls to limit what processes can communicate with others inside the container.\n3. **Runtime Environment Management**: Manage the runtime environment securely by ensuring only necessary tools and libraries are included.\n4. **Data Encryption**: Encrypt data both at rest and in transit to protect sensitive information.\n5. **Audit Trails**: Maintain audit trails to track changes made to the container's configuration and state.\n6. **Regular Updates**: Keep the container image and its dependencies up-to-date to mitigate vulnerabilities.\n7. **Least Privilege Principle**: Use least privilege principle to ensure that only essential services have access to resources.\n8. **Secure Boot**: Enable secure boot mechanisms if applicable to prevent unauthorized modifications to the kernel.\n9. **Container Image Integrity Checks**: Perform regular checks on container images to detect tampering.\n10. **Monitoring and Logging**: Monitor container activities closely and maintain comprehensive logging to detect anomalies.\n\nThese practices aim to enhance the security posture of application containers while leveraging existing security principles and techniques",
+      "supported_claims": 9,
+      "total_claims": 12,
+      "faithfulness_proxy": 0.75,
+      "claims": [
+        {
+          "claim": "Based on the provided context, NIST SP 800-190 recommends several security practices for application containers: 1.",
+          "supported": true,
+          "support_score": 0.828,
+          "best_source": "[NIST | SP 800-190 | p.13]"
+        },
+        {
+          "claim": "**Isolation**: Ensure that containers are isolated from one another and from the host operating system.",
+          "supported": true,
+          "support_score": 0.637,
+          "best_source": "[NIST | SP 800-190 | p.13]"
+        },
+        {
+          "claim": "**Access Controls**: Implement strict access controls to limit what processes can communicate with others inside the container.",
+          "supported": true,
+          "support_score": 0.6146,
+          "best_source": "[NIST | SP 800-190 | p.15]"
+        },
+        {
+          "claim": "**Runtime Environment Management**: Manage the runtime environment securely by ensuring only necessary tools and libraries are included.",
+          "supported": true,
+          "support_score": 0.4781,
+          "best_source": "[NIST | SP 800-190 | p.15]"
+        },
+        {
+          "claim": "**Data Encryption**: Encrypt data both at rest and in transit to protect sensitive information.",
+          "supported": false,
+          "support_score": 0.3323,
+          "best_source": "[NIST | SP 800-204C | p.14]"
+        },
+        {
+          "claim": "**Audit Trails**: Maintain audit trails to track changes made to the container's configuration and state.",
+          "supported": true,
+          "support_score": 0.509,
+          "best_source": "[NIST | SP 800-204C | p.14]"
+        },
+        {
+          "claim": "**Regular Updates**: Keep the container image and its dependencies up-to-date to mitigate vulnerabilities.",
+          "supported": true,
+          "support_score": 0.6375,
+          "best_source": "[NIST | SP 800-190 | p.13]"
+        },
+        {
+          "claim": "**Least Privilege Principle**: Use least privilege principle to ensure that only essential services have access to resources.",
+          "supported": false,
+          "support_score": 0.285,
+          "best_source": "[NIST | SP 800-190 | p.4]"
+        },
+        {
+          "claim": "**Secure Boot**: Enable secure boot mechanisms if applicable to prevent unauthorized modifications to the kernel.",
+          "supported": false,
+          "support_score": 0.395,
+          "best_source": "[NIST | SP 800-190 | p.48]"
+        },
+        {
+          "claim": "**Container Image Integrity Checks**: Perform regular checks on container images to detect tampering.",
+          "supported": true,
+          "support_score": 0.5329,
+          "best_source": "[NIST | SP 800-190 | p.48]"
+        },
+        {
+          "claim": "**Monitoring and Logging**: Monitor container activities closely and maintain comprehensive logging to detect anomalies.",
+          "supported": true,
+          "support_score": 0.5338,
+          "best_source": "[NIST | SP 800-204C | p.14]"
+        },
+        {
+          "claim": "These practices aim to enhance the security posture of application containers while leveraging existing security principles and techniques",
+          "supported": true,
+          "support_score": 0.8345,
+          "best_source": "[NIST | SP 800-190 | p.48]"
+        }
+      ]
+    },
+    {
+      "id": "faith_04",
+      "question": "What practices are recommended for secure software development?",
+      "answer": "Based on the provided context, the recommended practices for secure software development include:\n\n1. **Prepare the Organization (PO)** - Ensures that the organization's people, processes, and technology are ready to perform secure software development.\n   \n2. **Risk-Based Approach** - Encourages configuring development endpoints and resources using a risk-based strategy to minimize unnecessary functionality and enforce principles of least privilege.\n\n3. **Continuous Monitoring** - Recommends continuously monitoring the security posture of development endpoints to detect and respond to potential threats.\n\n4. **Security Controls Configuration** - Suggests configuring security controls and tools to generate artifacts related to securing and hardening development endpoints.\n\n5. **Least Privilege Principle** - Emphasizes enforcing the principle of least privilege among development personnel and resources.\n\nThese practices aim to enhance overall security during the software development lifecycle while ensuring compliance with relevant standards and regulations.",
+      "supported_claims": 6,
+      "total_claims": 7,
+      "faithfulness_proxy": 0.8571428571428571,
+      "claims": [
+        {
+          "claim": "Based on the provided context, the recommended practices for secure software development include: 1.",
+          "supported": true,
+          "support_score": 0.751,
+          "best_source": "[NIST | SP 800-218 | p.11]"
+        },
+        {
+          "claim": "**Prepare the Organization (PO)** - Ensures that the organization's people, processes, and technology are ready to perform secure software development.",
+          "supported": true,
+          "support_score": 0.6395,
+          "best_source": "[NIST | SP 800-218 | p.13]"
+        },
+        {
+          "claim": "**Risk-Based Approach** - Encourages configuring development endpoints and resources using a risk-based strategy to minimize unnecessary functionality and enforce principles of least privilege.",
+          "supported": true,
+          "support_score": 0.7662,
+          "best_source": "[NIST | SP 800-218 | p.18]"
+        },
+        {
+          "claim": "**Continuous Monitoring** - Recommends continuously monitoring the security posture of development endpoints to detect and respond to potential threats.",
+          "supported": true,
+          "support_score": 0.6167,
+          "best_source": "[NIST | SP 800-218 | p.18]"
+        },
+        {
+          "claim": "**Security Controls Configuration** - Suggests configuring security controls and tools to generate artifacts related to securing and hardening development endpoints.",
+          "supported": true,
+          "support_score": 0.7327,
+          "best_source": "[NIST | SP 800-218 | p.18]"
+        },
+        {
+          "claim": "**Least Privilege Principle** - Emphasizes enforcing the principle of least privilege among development personnel and resources.",
+          "supported": false,
+          "support_score": 0.3379,
+          "best_source": "[NIST | SP 800-218 | p.18]"
+        },
+        {
+          "claim": "These practices aim to enhance overall security during the software development lifecycle while ensuring compliance with relevant standards and regulations.",
+          "supported": true,
+          "support_score": 0.735,
+          "best_source": "[NIST | SP 800-218 | p.11]"
+        }
+      ]
+    },
+    {
+      "id": "faith_05",
+      "question": "What guidance does NIST provide for API protection in cloud-native systems?",
+      "answer": "NIST provides guidelines for API protection in cloud-native systems, emphasizing the need for certain core capabilities including authentication and authorization, request and response validation, rate limiting, circuit breaking, error handling, logging and monitoring. Additionally, it addresses other common concerns specific to APIs serving infrastructure, such as service discovery, routing, protocol conversion, caching. The guidelines aim to ensure conformance to the principles of zero trust by leveraging identity-based segmentation through authentication and authorization controls.",
+      "supported_claims": 3,
+      "total_claims": 3,
+      "faithfulness_proxy": 1.0,
+      "claims": [
+        {
+          "claim": "NIST provides guidelines for API protection in cloud-native systems, emphasizing the need for certain core capabilities including authentication and authorization, request and response validation, rate limiting, circuit breaking, error handling, logging and monitoring.",
+          "supported": true,
+          "support_score": 0.8603,
+          "best_source": "[NIST | SP 800-228 Update 1 | p.40]"
+        },
+        {
+          "claim": "Additionally, it addresses other common concerns specific to APIs serving infrastructure, such as service discovery, routing, protocol conversion, caching.",
+          "supported": true,
+          "support_score": 0.5721,
+          "best_source": "[NIST | SP 800-228 Update 1 | p.40]"
+        },
+        {
+          "claim": "The guidelines aim to ensure conformance to the principles of zero trust by leveraging identity-based segmentation through authentication and authorization controls.",
+          "supported": true,
+          "support_score": 0.5161,
+          "best_source": "[NIST | SP 800-228 Update 1 | p.16]"
+        }
+      ]
+    }
+  ]
+}

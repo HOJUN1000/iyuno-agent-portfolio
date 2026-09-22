@@ -1,0 +1,96 @@
+{
+  "metric": "Citation Success Rate",
+  "passed": 5,
+  "total": 5,
+  "success_rate": 1.0,
+  "average_latency_seconds": 10.9386,
+  "results": [
+    {
+      "id": "citation_01",
+      "question": "Explain zero trust architecture and provide supporting sources.",
+      "has_answer": true,
+      "has_sources": true,
+      "source_count": 5,
+      "valid_source_count": 5,
+      "valid_format": true,
+      "citation_pass": true,
+      "latency_seconds": 13.448,
+      "sources": [
+        "[NIST | SP 800-207 | p.13]",
+        "[NIST | SP 800-207 | p.10]",
+        "[NIST | SP 800-207A | p.10]",
+        "[NIST | SP 800-207 | p.5]",
+        "[NIST | SP 800-207 | p.15]"
+      ]
+    },
+    {
+      "id": "citation_02",
+      "question": "Explain NIST guidance for secure software development and cite the source.",
+      "has_answer": true,
+      "has_sources": true,
+      "source_count": 5,
+      "valid_source_count": 5,
+      "valid_format": true,
+      "citation_pass": true,
+      "latency_seconds": 8.269,
+      "sources": [
+        "[NIST | SP 800-218 | p.11]",
+        "[NIST | SP 800-218 | p.8]",
+        "[NIST | SP 800-218 | p.2]",
+        "[NIST | SP 800-218 | p.12]",
+        "[NIST | SP 800-218A | p.5]"
+      ]
+    },
+    {
+      "id": "citation_03",
+      "question": "Explain container security risks and provide document sources.",
+      "has_answer": true,
+      "has_sources": true,
+      "source_count": 4,
+      "valid_source_count": 4,
+      "valid_format": true,
+      "citation_pass": true,
+      "latency_seconds": 11.058,
+      "sources": [
+        "[NIST | SP 800-204C | p.14]",
+        "[NIST | SP 800-190 | p.13]",
+        "[NIST | SP 800-190 | p.4]",
+        "[NIST | SP 800-190 | p.25]"
+      ]
+    },
+    {
+      "id": "citation_04",
+      "question": "Explain incident response recommendations and provide supporting sources.",
+      "has_answer": true,
+      "has_sources": true,
+      "source_count": 3,
+      "valid_source_count": 3,
+      "valid_format": true,
+      "citation_pass": true,
+      "latency_seconds": 11.477,
+      "sources": [
+        "[NIST | SP 800-61 Rev. 3 | p.18]",
+        "[NIST | SP 800-53 Rev. 5 | p.185]",
+        "[NIST | SP 800-61 Rev. 3 | p.15]"
+      ]
+    },
+    {
+      "id": "citation_05",
+      "question": "Explain API protection recommendations and cite relevant NIST sources.",
+      "has_answer": true,
+      "has_sources": true,
+      "source_count": 5,
+      "valid_source_count": 5,
+      "valid_format": true,
+      "citation_pass": true,
+      "latency_seconds": 10.441,
+      "sources": [
+        "[NIST | SP 800-228 Update 1 | p.51]",
+        "[NIST | SP 800-228 Update 1 | p.10]",
+        "[NIST | SP 800-228 Update 1 | p.3]",
+        "[NIST | SP 800-228 Update 1 | p.40]",
+        "[NIST | SP 800-228 Update 1 | p.5]"
+      ]
+    }
+  ]
+}

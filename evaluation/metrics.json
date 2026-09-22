@@ -1,0 +1,28 @@
+{
+  "evaluation_summary": {
+    "rag_recall_at_5": 1.0,
+    "tool_selection_accuracy": 1.0,
+    "citation_success_rate": 1.0,
+    "faithfulness_proxy": 0.7812,
+    "multistep_success_rate": 1.0,
+    "failure_handling_rate": 1.0
+  },
+  "latency": {
+    "citation_average_seconds": 10.939,
+    "multistep_average_seconds": 16.676
+  },
+  "evaluation_counts": {
+    "rag_questions": 10,
+    "tool_questions": 5,
+    "citation_questions": 5,
+    "faithfulness_claims": 32,
+    "multistep_questions": 4,
+    "failure_questions": 3
+  },
+  "notes": {
+    "faithfulness_method": "Embedding-based claim-to-context cosine similarity proxy",
+    "faithfulness_threshold": 0.45,
+    "ood_threshold": 0.35,
+    "important": "Faithfulness proxy is not equivalent to factual accuracy."
+  }
+}

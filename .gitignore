@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model / ML cache
+.cache/
+huggingface/
+models/
+
+# Environment / secrets
+.env
+*.env
+
+# Raw source documents
+data/raw/
+
+# Generated embeddings
+data/processed/embeddings_v2.npy
+
+data/processed/embeddings.npy
+data/processed/faiss.index

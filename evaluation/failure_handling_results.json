@@ -1,0 +1,42 @@
+{
+  "metric": "Failure Handling Rate",
+  "handled": 3,
+  "total": 3,
+  "rate": 1.0,
+  "ood_threshold": 0.35,
+  "results": [
+    {
+      "id": "failure_01",
+      "question": "What is CVE-9999-9999999?",
+      "type": "invalid_cve",
+      "handled_correctly": true,
+      "result": {
+        "success": false,
+        "cve_id": "CVE-9999-9999999",
+        "error": "CVE not found"
+      },
+      "latency_seconds": 0.167
+    },
+    {
+      "id": "failure_02",
+      "question": "Calculate hello * world",
+      "type": "invalid_calculation",
+      "handled_correctly": true,
+      "result": {
+        "success": false,
+        "error": "Valid mathematical expression not found"
+      },
+      "latency_seconds": 0.0
+    },
+    {
+      "id": "failure_03",
+      "question": "What does the collected documentation say about growing tomatoes on Mars?",
+      "type": "out_of_domain",
+      "handled_correctly": true,
+      "best_retrieval_score": 0.3137,
+      "threshold": 0.35,
+      "answer": "Insufficient evidence in the collected documentation to answer this question.",
+      "latency_seconds": 0.022
+    }
+  ]
+}

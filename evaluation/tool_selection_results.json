@@ -1,0 +1,53 @@
+{
+  "metric": "Tool Selection Accuracy",
+  "correct": 5,
+  "total": 5,
+  "accuracy": 1.0,
+  "results": [
+    {
+      "id": "tool_01",
+      "question": "Calculate 125 * 48",
+      "expected_tool": "calculator",
+      "selected_tool": "calculator",
+      "selector_success": true,
+      "reason": "The user requested a simple multiplication calculation.",
+      "correct": true
+    },
+    {
+      "id": "tool_02",
+      "question": "Calculate (250 + 50) / 6",
+      "expected_tool": "calculator",
+      "selected_tool": "calculator",
+      "selector_success": true,
+      "reason": "The user asked to perform a simple arithmetic calculation.",
+      "correct": true
+    },
+    {
+      "id": "tool_03",
+      "question": "What is CVE-2026-15144?",
+      "expected_tool": "nvd_api",
+      "selected_tool": "nvd_api",
+      "selector_success": true,
+      "reason": "The user asked about a specific CVE vulnerability.",
+      "correct": true
+    },
+    {
+      "id": "tool_04",
+      "question": "What does NIST recommend for zero trust access control?",
+      "expected_tool": "policy_rag",
+      "selected_tool": "policy_rag",
+      "selector_success": true,
+      "reason": "NIST provides guidance on zero trust access control.",
+      "correct": true
+    },
+    {
+      "id": "tool_05",
+      "question": "What security guidance exists for application containers?",
+      "expected_tool": "policy_rag",
+      "selected_tool": "policy_rag",
+      "selector_success": true,
+      "reason": "The user is asking for general security guidance related to application containers.",
+      "correct": true
+    }
+  ]
+}

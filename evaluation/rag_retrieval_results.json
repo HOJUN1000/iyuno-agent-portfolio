@@ -1,0 +1,189 @@
+{
+  "metric": "Recall@5",
+  "hits": 10,
+  "total": 10,
+  "recall_at_5": 1.0,
+  "results": [
+    {
+      "id": "rag_01",
+      "question": "What are the core principles of zero trust architecture?",
+      "expected_documents": [
+        "nist_sp_800_207"
+      ],
+      "retrieved_documents": [
+        "nist_sp_800_207a",
+        "nist_sp_800_207",
+        "nist_sp_800_207",
+        "nist_sp_800_207",
+        "nist_sp_800_207"
+      ],
+      "matched_documents": [
+        "nist_sp_800_207"
+      ],
+      "hit_at_5": true
+    },
+    {
+      "id": "rag_02",
+      "question": "What guidance does NIST provide for API protection in cloud-native systems?",
+      "expected_documents": [
+        "nist_sp_800_228_upd1"
+      ],
+      "retrieved_documents": [
+        "nist_sp_800_228_upd1",
+        "nist_sp_800_228_upd1",
+        "nist_sp_800_228_upd1",
+        "nist_sp_800_228_upd1",
+        "nist_sp_800_228_upd1"
+      ],
+      "matched_documents": [
+        "nist_sp_800_228_upd1"
+      ],
+      "hit_at_5": true
+    },
+    {
+      "id": "rag_03",
+      "question": "What practices are recommended for secure software development?",
+      "expected_documents": [
+        "nist_sp_800_218"
+      ],
+      "retrieved_documents": [
+        "nist_sp_800_218",
+        "nist_sp_800_218",
+        "nist_sp_800_218",
+        "nist_sp_800_218",
+        "nist_sp_800_218"
+      ],
+      "matched_documents": [
+        "nist_sp_800_218"
+      ],
+      "hit_at_5": true
+    },
+    {
+      "id": "rag_04",
+      "question": "How should organizations respond to cybersecurity incidents?",
+      "expected_documents": [
+        "nist_sp_800_61r3"
+      ],
+      "retrieved_documents": [
+        "nist_sp_800_61r3",
+        "nist_sp_800_61r3",
+        "nist_sp_800_61r3",
+        "nist_sp_800_61r3",
+        "nist_sp_800_61r3"
+      ],
+      "matched_documents": [
+        "nist_sp_800_61r3"
+      ],
+      "hit_at_5": true
+    },
+    {
+      "id": "rag_05",
+      "question": "What security risks should be considered for application containers?",
+      "expected_documents": [
+        "nist_sp_800_190"
+      ],
+      "retrieved_documents": [
+        "nist_sp_800_190",
+        "nist_sp_800_190",
+        "nist_sp_800_204c",
+        "nist_sp_800_190",
+        "nist_sp_800_190"
+      ],
+      "matched_documents": [
+        "nist_sp_800_190"
+      ],
+      "hit_at_5": true
+    },
+    {
+      "id": "rag_06",
+      "question": "What security strategies are recommended for microservices-based systems?",
+      "expected_documents": [
+        "nist_sp_800_204"
+      ],
+      "retrieved_documents": [
+        "nist_sp_800_204",
+        "nist_sp_800_204",
+        "nist_sp_800_204",
+        "nist_sp_800_204",
+        "nist_sp_800_204"
+      ],
+      "matched_documents": [
+        "nist_sp_800_204"
+      ],
+      "hit_at_5": true
+    },
+    {
+      "id": "rag_07",
+      "question": "How can prompt injection attacks against generative AI systems be mitigated?",
+      "expected_documents": [
+        "nist_ai_100_2_e2025",
+        "owasp_llm_top10_2025"
+      ],
+      "retrieved_documents": [
+        "nist_ai_100_2_e2025",
+        "nist_ai_100_2_e2025",
+        "nist_ai_100_2_e2025",
+        "nist_ai_100_2_e2025",
+        "nist_ai_100_2_e2025"
+      ],
+      "matched_documents": [
+        "nist_ai_100_2_e2025"
+      ],
+      "hit_at_5": true
+    },
+    {
+      "id": "rag_08",
+      "question": "What does the AI Risk Management Framework recommend for managing AI risks?",
+      "expected_documents": [
+        "nist_ai_100_1"
+      ],
+      "retrieved_documents": [
+        "nist_ai_100_1",
+        "nist_ai_100_1",
+        "nist_ai_100_1",
+        "nist_ai_100_1",
+        "nist_ai_100_1"
+      ],
+      "matched_documents": [
+        "nist_ai_100_1"
+      ],
+      "hit_at_5": true
+    },
+    {
+      "id": "rag_09",
+      "question": "What practices improve software supply chain security in DevSecOps pipelines?",
+      "expected_documents": [
+        "nist_sp_800_204d"
+      ],
+      "retrieved_documents": [
+        "nist_sp_800_204d",
+        "nist_sp_800_204d",
+        "nist_sp_800_204d",
+        "nist_sp_800_204d",
+        "nist_sp_800_204d"
+      ],
+      "matched_documents": [
+        "nist_sp_800_204d"
+      ],
+      "hit_at_5": true
+    },
+    {
+      "id": "rag_10",
+      "question": "What approaches are recommended for developing cyber-resilient systems?",
+      "expected_documents": [
+        "nist_sp_800_160v2r1"
+      ],
+      "retrieved_documents": [
+        "nist_sp_800_160v2r1",
+        "nist_sp_800_160v2r1",
+        "nist_sp_800_160v2r1",
+        "nist_sp_800_160v2r1",
+        "nist_sp_800_160v2r1"
+      ],
+      "matched_documents": [
+        "nist_sp_800_160v2r1"
+      ],
+      "hit_at_5": true
+    }
+  ]
+}

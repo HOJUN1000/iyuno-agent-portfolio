@@ -1,0 +1,57 @@
+{
+  "metric": "Multi-step Workflow Success Rate",
+  "passed": 4,
+  "total": 4,
+  "success_rate": 1.0,
+  "average_latency_seconds": 16.67625,
+  "results": [
+    {
+      "id": "multi_01",
+      "question": "Analyze CVE-2026-15144 and suggest relevant security mitigations based on NIST guidance.",
+      "success": true,
+      "workflow_complete": true,
+      "has_answer": true,
+      "has_sources": true,
+      "source_count": 4,
+      "latency_seconds": 18.551,
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "multi_02",
+      "question": "Retrieve CVE-2026-15144 and relate the vulnerability to relevant API security guidance.",
+      "success": true,
+      "workflow_complete": true,
+      "has_answer": true,
+      "has_sources": true,
+      "source_count": 4,
+      "latency_seconds": 16.163,
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "multi_03",
+      "question": "Investigate CVE-2026-15144 and identify security controls from the collected NIST documents.",
+      "success": true,
+      "workflow_complete": true,
+      "has_answer": true,
+      "has_sources": true,
+      "source_count": 4,
+      "latency_seconds": 15.759,
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "multi_04",
+      "question": "Use vulnerability information for CVE-2026-15144 and provide document-based mitigation recommendations.",
+      "success": true,
+      "workflow_complete": true,
+      "has_answer": true,
+      "has_sources": true,
+      "source_count": 4,
+      "latency_seconds": 16.232,
+      "passed": true,
+      "error": null
+    }
+  ]
+}

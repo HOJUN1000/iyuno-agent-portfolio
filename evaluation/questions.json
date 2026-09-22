@@ -1,0 +1,188 @@
+[
+  {
+    "id": "rag_01",
+    "category": "rag",
+    "question": "What are the core principles of zero trust architecture?",
+    "expected_documents": [
+      "nist_sp_800_207"
+    ]
+  },
+  {
+    "id": "rag_02",
+    "category": "rag",
+    "question": "What guidance does NIST provide for API protection in cloud-native systems?",
+    "expected_documents": [
+      "nist_sp_800_228_upd1"
+    ]
+  },
+  {
+    "id": "rag_03",
+    "category": "rag",
+    "question": "What practices are recommended for secure software development?",
+    "expected_documents": [
+      "nist_sp_800_218"
+    ]
+  },
+  {
+    "id": "rag_04",
+    "category": "rag",
+    "question": "How should organizations respond to cybersecurity incidents?",
+    "expected_documents": [
+      "nist_sp_800_61r3"
+    ]
+  },
+  {
+    "id": "rag_05",
+    "category": "rag",
+    "question": "What security risks should be considered for application containers?",
+    "expected_documents": [
+      "nist_sp_800_190"
+    ]
+  },
+  {
+    "id": "rag_06",
+    "category": "rag",
+    "question": "What security strategies are recommended for microservices-based systems?",
+    "expected_documents": [
+      "nist_sp_800_204"
+    ]
+  },
+  {
+    "id": "rag_07",
+    "category": "rag",
+    "question": "How can prompt injection attacks against generative AI systems be mitigated?",
+    "expected_documents": [
+      "nist_ai_100_2_e2025",
+      "owasp_llm_top10_2025"
+    ]
+  },
+  {
+    "id": "rag_08",
+    "category": "rag",
+    "question": "What does the AI Risk Management Framework recommend for managing AI risks?",
+    "expected_documents": [
+      "nist_ai_100_1"
+    ]
+  },
+  {
+    "id": "rag_09",
+    "category": "rag",
+    "question": "What practices improve software supply chain security in DevSecOps pipelines?",
+    "expected_documents": [
+      "nist_sp_800_204d"
+    ]
+  },
+  {
+    "id": "rag_10",
+    "category": "rag",
+    "question": "What approaches are recommended for developing cyber-resilient systems?",
+    "expected_documents": [
+      "nist_sp_800_160v2r1"
+    ]
+  },
+  {
+    "id": "citation_01",
+    "category": "citation",
+    "question": "Explain zero trust architecture and provide supporting sources."
+  },
+  {
+    "id": "citation_02",
+    "category": "citation",
+    "question": "Explain NIST guidance for secure software development and cite the source."
+  },
+  {
+    "id": "citation_03",
+    "category": "citation",
+    "question": "Explain container security risks and provide document sources."
+  },
+  {
+    "id": "citation_04",
+    "category": "citation",
+    "question": "Explain incident response recommendations and provide supporting sources."
+  },
+  {
+    "id": "citation_05",
+    "category": "citation",
+    "question": "Explain API protection recommendations and cite relevant NIST sources."
+  },
+  {
+    "id": "tool_01",
+    "category": "tool",
+    "question": "Calculate 125 * 48",
+    "expected_tool": "calculator"
+  },
+  {
+    "id": "tool_02",
+    "category": "tool",
+    "question": "Calculate (250 + 50) / 6",
+    "expected_tool": "calculator"
+  },
+  {
+    "id": "tool_03",
+    "category": "tool",
+    "question": "What is CVE-2026-15144?",
+    "expected_tool": "nvd_api"
+  },
+  {
+    "id": "tool_04",
+    "category": "tool",
+    "question": "What does NIST recommend for zero trust access control?",
+    "expected_tool": "policy_rag"
+  },
+  {
+    "id": "tool_05",
+    "category": "tool",
+    "question": "What security guidance exists for application containers?",
+    "expected_tool": "policy_rag"
+  },
+  {
+    "id": "multi_01",
+    "category": "multi_step",
+    "question": "Analyze CVE-2026-15144 and suggest relevant security mitigations based on NIST guidance."
+  },
+  {
+    "id": "multi_02",
+    "category": "multi_step",
+    "question": "Retrieve CVE-2026-15144 and relate the vulnerability to relevant API security guidance."
+  },
+  {
+    "id": "multi_03",
+    "category": "multi_step",
+    "question": "Investigate CVE-2026-15144 and identify security controls from the collected NIST documents."
+  },
+  {
+    "id": "multi_04",
+    "category": "multi_step",
+    "question": "Use vulnerability information for CVE-2026-15144 and provide document-based mitigation recommendations."
+  },
+  {
+    "id": "context_01",
+    "category": "context",
+    "question": "For a cloud-native API, what access-control and protection practices should be considered?"
+  },
+  {
+    "id": "context_02",
+    "category": "context",
+    "question": "For a microservices application using a service mesh, what security practices are relevant?"
+  },
+  {
+    "id": "context_03",
+    "category": "context",
+    "question": "For a generative AI application, what risks should developers consider when handling untrusted prompts?"
+  },
+  {
+    "id": "failure_01",
+    "category": "failure",
+    "question": "What is CVE-9999-9999999?"
+  },
+  {
+    "id": "failure_02",
+    "category": "failure",
+    "question": "Calculate hello * world"
+  },
+  {
+    "id": "failure_03",
+    "category": "failure",
+    "question": "What does the collected documentation say about growing tomatoes on Mars?"
+  }
+]
